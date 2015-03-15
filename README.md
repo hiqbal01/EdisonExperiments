@@ -1,18 +1,19 @@
-# Building a RESTful API in Node and Express
+# Building a RESTful API in Node and Express on the Intel Edison 
 
-Using the new Express 4.0 Router to build an API
+- Have services to change the color of the Grove LCD /lcd/color/r,g,b
+- Have services to output a message to the LCD /lcd/print/hello
+- Have a touch sensor 
+- Have a a service to blink an LED /blink
+- Have a service to stop blinking the LED /stopblink
+- Have a service to set off a buzzer /buzz
+- Have a service to stop the buzzer /stopbuzz
+- Have services to get weather conditions from the underground api onto the device /temperature/state(uppercase abbrev)/city, /humidity/state/city
 
-[Read the tutorial](http://scotch.io/tutorials/javascript/build-a-restful-api-using-node-and-express-4)
 
 ## Requirements
 
 - Node and npm
+- Intel Edison
+- Seed Studio Grove sensors and actuators
 
-## Installation
 
-- Clone the repo: `git clone git@github.com:scotch-io/node-api`
-- Install dependencies: `npm install`
-- Start the server: `node server.js`
-
-## Testing the API
-Test your API using [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop)
