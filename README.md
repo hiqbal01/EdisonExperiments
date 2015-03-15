@@ -23,10 +23,9 @@
 - Intel Edison
 - Seed Studio Grove sensors and actuators
 
-###Modules used
+## Modules used
 
 - mraa
-- upm
 - express
 - twilio
 - busboy-connect
